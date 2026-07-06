@@ -2,15 +2,15 @@
 
 🌐 **Live Site:** [https://senembutunurbayduremlak.netlify.app/](https://senembutunurbayduremlak.netlify.app/)
 
-This project is a "Linktree" style, mobile-friendly, and modern digital business card / profile page created for Real Estate Agent Senem Bütüner Baydur. It is designed to provide clients with one-click access to communication channels and real estate portfolios.
+This project is a modern **Link-in-Bio** profile page designed for clients to access communication channels (WhatsApp, Phone, Instagram) and current real estate listings with a single click.
+
+Reflecting the prestige of the real estate sector with its custom dark theme, it is a fully digital and interactive version of a traditional business card.
 
 ## 📸 Page Views
 
-### Main Page View
-![Main Page View](Ekran görüntüsü 2026-07-06 223458_2.png)
-
-### Expanded "About Me" Section
-![Expanded About Me Section](Ekran görüntüsü 2026-07-06 223512_2.png)
+| Main Page View | Expanded "About Me" Section |
+| :---: | :---: |
+| ![Main Page View](anasayfa.png) | ![Expanded About Me Section](hakkimda.png) |
 
 ## 🚀 Features
 
