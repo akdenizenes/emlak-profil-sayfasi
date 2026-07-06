@@ -25,4 +25,4 @@ Since the project consists of static files, it does not require any server insta
 
 1. Clone the repository to your local machine:
    ```bash
-     git clone https://github.com/YOUR_USERNAME/repository-name.git
+     git clone https://github.com/akdenizenes/repository-name.git
