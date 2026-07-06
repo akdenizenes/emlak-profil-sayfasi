@@ -1,6 +1,16 @@
-# Real Estate Agent Profile Page (Link-in-Bio)
+# Senem Bütüner Baydur - Digital Real Estate Business Card 🏡✨
+
+🌐 **Live Site:** [https://senembutunurbayduremlak.netlify.app/](https://senembutunurbayduremlak.netlify.app/)
 
 This project is a "Linktree" style, mobile-friendly, and modern digital business card / profile page created for Real Estate Agent Senem Bütüner Baydur. It is designed to provide clients with one-click access to communication channels and real estate portfolios.
+
+## 📸 Page Views
+
+### Main Page View
+![Main Page View](Ekran görüntüsü 2026-07-06 223458_2.png)
+
+### Expanded "About Me" Section
+![Expanded About Me Section](Ekran görüntüsü 2026-07-06 223512_2.png)
 
 ## 🚀 Features
 
@@ -18,11 +28,3 @@ This project is a "Linktree" style, mobile-friendly, and modern digital business
 - **HTML5:** Page skeleton and semantic structure.
 - **CSS3:** Styling, gradients, box shadows, and hover animations.
 - **Vanilla JavaScript:** Toggle functionality for the "About Me" section.
-
-## ⚙️ Setup and Usage
-
-Since the project consists of static files, it does not require any server installation or backend configuration.
-
-1. Clone the repository to your local machine:
-   ```bash
-     git clone https://github.com/akdenizenes/emlak-profil-sayfasi.git
