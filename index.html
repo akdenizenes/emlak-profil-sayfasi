@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senem Bütüner Baydur - Emlak Danışmanı</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* Dark background suitable for real estate theme */
+            background: linear-gradient(135deg, #151318, #241f2b, #33291f);
+            color: #ffffff;
+            margin: 0; padding: 0;
+            display: flex; justify-content: center; min-height: 100vh;
+        }
+        .container {
+            width: 100%; max-width: 500px; padding: 40px 20px;
+            text-align: center; box-sizing: border-box;
+        }
+
+        /* Profile picture placeholder */
+        .profile-placeholder {
+            width: 150px; height: 150px; border-radius: 50%;
+            border: 4px solid #c9a25e;
+            box-shadow: 0 0 25px rgba(201, 162, 94, 0.45);
+            margin: 0 auto 20px; display: flex;
+            align-items: center; justify-content: center;
+            background: rgba(201, 162, 94, 0.12);
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 46px; font-weight: 700; color: #e9cd8f;
+            letter-spacing: 2px;
+        }
+        
+        /* Profile image style (Use this class when replacing the placeholder with an <img> tag) */
+        .profile-img {
+            width: 150px; height: 150px; border-radius: 50%;
+            object-fit: cover; border: 4px solid #c9a25e;
+            box-shadow: 0 0 25px rgba(201, 162, 94, 0.45);
+            margin: 0 auto 20px; display: block;
+        }
+
+        h1 {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 30px; margin: 0 0 10px 0; font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+        .bio { font-size: 17px; color: #d6cbb8; margin-bottom: 30px; line-height: 1.6; }
+
+        .link-btn {
+            display: block; width: 100%; padding: 18px;
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            color: #ffffff; text-decoration: none;
+            border-radius: 15px; font-size: 17px; font-weight: 600;
+            margin-bottom: 15px; transition: all 0.3s ease; box-sizing: border-box;
+            cursor: pointer;
+        }
+        .link-btn:hover { background: rgba(255, 255, 255, 0.15); transform: translateY(-3px); border-color: #c9a25e; }
+
+        /* WhatsApp button */
+        .whatsapp-btn { background: linear-gradient(to right, #25D366, #128C7E); color: #ffffff; border: none; font-weight: bold; }
+        
+        /* Portfolio button */
+        .portfolio-btn { background: linear-gradient(to right, #c9a25e, #e9cd8f); color: #1a1a1a; border: none; font-weight: bold; }
+
+        #aboutSection {
+            display: none;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #ffffff; border-radius: 20px;
+            padding: 25px; text-align: left;
+            margin-top: 20px; margin-bottom: 30px;
+        }
+        .about-card h2 { color: #e9cd8f; border-bottom: 2px solid #c9a25e; padding-bottom: 10px; font-size: 20px; }
+        .about-card h3 { color: #e9cd8f; font-size: 17px; margin-top: 20px; }
+        .about-card p, .about-card li { font-size: 15px; line-height: 1.6; color: #e5e7eb; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="profile-placeholder">SBB</div>
+
+        <h1>Senem Bütüner Baydur</h1>
+        <div class="bio">
+            🏡 Emlak Danışmanı<br>
+            ✨ Sadece ev değil, size en uygun yaşam alanını buluyoruz!
+        </div>
+
+        <button class="link-btn" onclick="toggleAbout()">🏠 Hakkımda </button>
+
+        <div id="aboutSection" class="about-card">
+            <h2>Merhaba, Ben Senem Bütüner Baydur</h2>
+            <p><strong>Sadece Ev Değil, Doğru Yaşam Alanını Buluyoruz</strong></p>
+            <p>Bir mülk almak, satmak ya da kiralamak sadece bir işlem değil; çoğu zaman hayatın en önemli kararlarından biridir. Ben bu süreçte yanınızda güvenilir bir yol arkadaşı olmak için buradayım. Amacım, size en uygun seçeneği bulmanın ötesinde, kendinizi rahat ve güvende hissedeceğiniz bir deneyim yaşatmaktır.</p>
+
+            <h3>Nasıl Bir Çalışma Anlayışım Var?</h3>
+            <ul>
+                <li><strong>Şeffaflık Önceliğim:</strong> Süreç boyunca her adımı açıkça paylaşır, sizi doğru ve net bilgilendiririm.</li>
+                <li><strong>Size Özel Yaklaşım:</strong> Herkesin ihtiyacı ve bütçesi farklıdır. Portföyümü tamamen sizin beklentilerinize göre şekillendiririm.</li>
+                <li><strong>Bölge ve Piyasa Bilgisi:</strong> Güncel piyasa değerlerini takip ederek doğru fiyat ve doğru zaman konusunda sizi yönlendiririm.</li>
+                <li><strong>İşi Sonuna Kadar Takip Ederim:</strong> İlanı bulmaktan tapu ve teslim aşamasına kadar tüm süreçte yanınızdayım.</li>
+            </ul>
+
+            <h3>Hangi Konularda Yardımcı Oluyorum?</h3>
+            <ul>
+                <li>Satılık &amp; kiralık konut alım-satım danışmanlığı</li>
+                <li>Ticari mülk (dükkân, ofis, iş yeri) çözümleri</li>
+                <li>Yatırım amaçlı gayrimenkul danışmanlığı</li>
+                <li>Mülk değerleme ve fiyat analizi</li>
+            </ul>
+        </div>
+
+        <a href="https://www.instagram.com/senembutunerbayduremlak" target="_blank" class="link-btn portfolio-btn" onclick="closeAbout()">📂 İlanlarım (Instagram'da)</a>
+        <a href="https://wa.me/905445420848" target="_blank" class="link-btn whatsapp-btn" onclick="closeAbout()">💬 WhatsApp ile İletişime Geç</a>
+        <a href="https://www.instagram.com/senembutunerbayduremlak" target="_blank" class="link-btn" onclick="closeAbout()">📸 Instagram</a>
+        <a href="tel:+905445420848" class="link-btn" onclick="closeAbout()">📞 Telefon No ile İletişime Geç </a>
+    </div>
+
+    <script>
+        // Toggle About section visibility
+        function toggleAbout() {
+            var x = document.getElementById("aboutSection");
+            x.style.display = (x.style.display === "block") ? "none" : "block";
+        }
+
+        // Close About section
+        function closeAbout() {
+            document.getElementById("aboutSection").style.display = "none";
+        }
+    </script>
+</body>
+</html>
